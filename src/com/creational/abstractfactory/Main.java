@@ -5,8 +5,10 @@ import com.creational.abstractfactory.shape.Shape;
 
 public class Main {
     /**
+     * Produce families of related objects without specifying their concrete classes.
+     *
      * Used to create an instance of several families of classes. Abstract factory pattern
-     * works around a factory producer which creates other factories.
+     * works around a factory producer which creates other factories (factory of factories).
      *
      * This mechanism makes exchanging product families easy because the specific class of the factory object
      * appears only once in the application - where it is instantiated.
@@ -14,9 +16,10 @@ public class Main {
      * The application can wholesale replace the entire family of products simply by instantiating a
      * different concrete instance of the abstract factory.
      *
-     * note: Abstract Factory emphasizes a family of product objects (either simple or complex).
-     * Builder pattern focuses on constructing a complex object step by step.
-     * Builder pattern returns the product as a final step, but as far as the Abstract Factory is concerned, the product gets returned immediately.
+     * note:
+     * - Abstract Factory emphasizes a family of product objects (either simple or complex).
+     * - Builder pattern focuses on constructing a complex object step by step.
+     * - Builder pattern returns the product as a final step, but as far as the Abstract Factory is concerned, the product gets returned immediately.
      */
     public static void main(String[] args) {
         // Use factory producer to get different factories

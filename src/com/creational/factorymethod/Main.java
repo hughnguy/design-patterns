@@ -4,7 +4,7 @@ import com.creational.factorymethod.shape.Shape;
 
 public class Main {
     /**
-     * It defines an interface for creating objects, but lets subclasses decide which classes to instantiate. (Circle, Square, etc)
+     * Provides an interface for creating objects of a superclass, but lets subclasses decide which classes to instantiate. (Circle, Square, etc)
      *
      * Create object without exposing the creation logic to the client and refer to newly created object using a common interface (Shape).
      *
