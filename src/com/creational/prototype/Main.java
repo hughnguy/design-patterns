@@ -4,7 +4,8 @@ import com.creational.prototype.shape.Shape;
 
 /**
  * Prototype pattern delegates the cloning process to the actual object that is being cloned itself.
- * It lets you copy existing objects without making your code dependent on the concrete classes.
+ * It lets you copy existing objects without making your code dependent on the concrete classes. ex: Code only needs to know
+ * about Home object when copying and not all the different variations (Bungalow, Condo, Townhome, Single)
  *
  * The pattern declares a common interface for all objects that support cloning.
  * This interface lets you clone an object without coupling your code to the class of that object.
